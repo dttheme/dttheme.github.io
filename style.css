@@ -21,9 +21,6 @@
   padding: 20px 40px;;
   transition: all 0.5s ease;
 }
-.navbar-brand:hover {
-  color: #000 !important;
-}
 li {
   color: #FFF !important;
   font-size:20px;
@@ -43,7 +40,7 @@ li.shrink {
   .shrink {
    transition: all 0.5s ease;
 }
- .navbar.shrink {
+  .navbar.shrink {
   height: 50px;
 }
 .navbar-brand.shrink {
@@ -71,12 +68,6 @@ li.shrink {
   opacity: 1 !important;
   font-size: 50px !important;
 }
-h1:hover {
-  color: #757575 !important;
-}
-h2:hover {
-  color: #000 !important;
-}
 .intro {
   padding: 15px 50px;
   background: rgba(0, 0, 0, 0.6);
@@ -98,21 +89,18 @@ h2:hover {
   border: 0 !important;
 }
 .middle {
-  height: auto;
+  height: 500px;
   background: #FFF;
   padding-bottom: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 150px;
 }
 .middletext {
   position: relative;
   text-align: center !important;
 }
 .about {
-  padding: 100px;
-}
-#about {
- padding: 100px; 
+  margin: 0 auto;
+  padding-top: 100px;
 }
 h2 {
   color: #757575 !important;
@@ -121,17 +109,7 @@ h2 {
 }
 .me {
   border-radius: 50%;
-}
-.socialmedia {
-  padding-top: 110px;
-  text-align: center;
-}
-.socialmedia  a {
-  padding: 70px 140px;
-  color: #757575;
-}
-.socialmedia a:hover {
-  color: #000;
+  margn: 0 auto;
 }
 .middle2 {
   background: rgba(0, 0, 0, 0.7)
