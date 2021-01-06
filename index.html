@@ -14,23 +14,15 @@
       type="text/css"
     />
   </head>
-  <body
-    class="code tc flex flex-column mw-100 mw8-ns w-100 center bg-black-05 mb3 mh2"
-  >
+  <body class="code tc flex flex-column mw-100 mw8-ns w-100 center bg-black-05 mb3 mh2">
     <header
       class="flex flex-column flex-row-ns justify-center items-center w-100 fw9 navy mb4 mb5-ns mt4"
     >
-      <h1 class="hover-gold ma0 f1">
-        Dyanna Turner
-      </h1>
+      <h1 class="hover-gold ma0 f1">Dyanna Turner</h1>
       <span class="fw1 i gold ma0 dn dib-ns f1">&nbsp;|&nbsp;</span>
-      <h2 class="hover-gold ma0 f3 f2-ns">
-        Web Developer
-      </h2>
+      <h2 class="hover-gold ma0 f3 f2-ns">Web Developer</h2>
     </header>
-    <nav
-      class="h-100 flex flex-column flex-row-l justify-around z-2 w-100 b tracked f3"
-    >
+    <nav class="h-100 flex flex-column flex-row-l justify-around z-2 w-100 b tracked f3">
       <a
         class="link ba br1 ph4 pv3 mt1 mb2 dib navy bg-white-70 hover-gold hover-bg-navy ml2 mr2 br2 shadow-4"
         href="https://github.com/dttheme"
@@ -67,24 +59,20 @@
             class="mw5 ba bw1 b--gold br-100 mr5-ns"
           />
           <aside>
-            <h3 class="f3 mt3 mb0">
-              Greetings!
-            </h3>
+            <h3 class="f3 mt3 mb0">Greetings!</h3>
+            <p>I am a web developer living and working in Atlanta, Georgia.</p>
             <p>
-              I am a web developer living and working in Atlanta, Georgia.
+              I specialize in working with HTML, CSS, JavaScript, and React. I have also worked with
+              SCSS, GraphQl, Jest, CMS implementation, and more. I am dedicated to making
+              responsive, preformative and well-tested websites.
             </p>
             <p>
-              I specialize in working with HTML, CSS, JavaScript, and React. I
-              have also worked with SCSS, GraphQl, Jest, CMS implementation, and
-              more. I am dedicated to making responsive, preformative and
-              well-tested websites.
+              I am currently working at
+              <a class="link navy hover-gold underline" href="www.fetchtruck.com">Fetch</a>,
+              building and improving amazing customer experiences.
             </p>
+            <p>When I'm not coding, I'm cooking comfort food, gardening and playing video games.</p>
             <p>
-              When I'm not coding, I'm cooking comfort food, gardening and
-              playing video games.
-            </p>
-            <p>
-              I am available to work.
               <a
                 target="_blank"
                 href="
@@ -96,19 +84,13 @@
           </aside>
         </div>
       </section>
-      <section id="work" class="br4 navy bg-white-80 shadow-4 ml2 mr2 mb5 pb4">
+      <!-- <section id="work" class="br4 navy bg-white-80 shadow-4 ml2 mr2 mb5 pb4">
         <h2 class="pt4">Work</h2>
         <div class="flex flex-column flex-row-ns items-center pa3">
-          <img
-            src="./images/sprout_bud.png"
-            alt=""
-            class="mw-100 h-auto mw6-l ba b--gray mh4"
-          />
+          <img src="./images/sprout_bud.png" alt="" class="mw-100 h-auto mw6-l ba b--gray mh4" />
           <div class="pa2">
             <h3>Plant Bud <i>(WIP)</i></h3>
-            <p>
-              Keep track of your plants and have a happier harvest.
-            </p>
+            <p>Keep track of your plants and have a happier harvest.</p>
             <p><b>Tech:</b> <i>React, Node/Express, Firebase</i></p>
             <a
               class="link ba br1 ph4 pv3 mt1 mb2 dib navy bg-white-70 hover-gold hover-bg-navy br2 shadow-4"
@@ -128,9 +110,7 @@
         <div class="flex flex-column flex-row-l items-center pa3">
           <div class="pa2 order-1 order-0-l">
             <h3>Rumblr</h3>
-            <p>
-              Earthquake tracking and information sharing.
-            </p>
+            <p>Earthquake tracking and information sharing.</p>
             <p><b>Tech:</b> <i>JQuery, HTML, CSS & WebGL Earth API</i></p>
             <a
               class="link ba br1 ph4 pv3 mt1 mb2 dib navy bg-white-70 hover-gold hover-bg-navy br2 shadow-4"
@@ -153,16 +133,10 @@
         </div>
         <hr class="w-90 mv4" />
         <div class="flex flex-column flex-row-l items-center pa3">
-          <img
-            src="./images/moodring_1.png"
-            alt=""
-            class="mw-100 h-auto mw6-ns ba b--gray mh4"
-          />
+          <img src="./images/moodring_1.png" alt="" class="mw-100 h-auto mw6-ns ba b--gray mh4" />
           <div class="pa2">
             <h3>MoodRing</h3>
-            <p>
-              Part survey, part journal, part mirror.
-            </p>
+            <p>Part survey, part journal, part mirror.</p>
             <p>
               <b>Tech:</b>
               <i>JQuery, HTML, CSS, Node/Express, MongoDB, JWT, Mocha & Chai</i>
@@ -181,21 +155,19 @@
             >
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="flex justify-center items-baseline pt2 o-60">
       <span class="flex flex-column flex-row-ns"
-        >&#169; Dyanna Turner, 2019 <span class="dn di-ns">&nbsp;|&nbsp;</span>
+        >&#169; Dyanna Turner, <span id="year"></span> <span class="dn di-ns">&nbsp;|&nbsp;</span>
         <span>
           Site made with
-          <a
-            class="link navy underline hover-gold"
-            href="https://tachyons.io/"
-            target="_blank"
+          <a class="link navy underline hover-gold" href="https://tachyons.io/" target="_blank"
             >Tachyons</a
           >, HTML and &#10084;.
         </span>
       </span>
     </footer>
+    <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
