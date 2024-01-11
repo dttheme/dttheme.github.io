@@ -1,0 +1,27 @@
+.app-wrapper {
+  display: grid;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px dotted lightgray;
+  padding: 2em;
+  margin: 0.5em 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
+}
+
+.social img {
+  max-width: 30px;
+}

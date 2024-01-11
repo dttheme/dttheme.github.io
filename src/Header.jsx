@@ -1,8 +1,6 @@
-import React from "react"
-import "../index.css"
+import React from "react";
+import "./styles.css";
 
-export default ({children}) => {
-    return (<div className="header">
-        {children}
-    </div>)
-}
+export default ({ children }) => {
+  return <div className="header">{children}</div>;
+};
