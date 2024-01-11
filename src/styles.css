@@ -10,6 +10,10 @@ p {
   text-align: left;
 }
 
+h2 {
+  text-align: left;
+}
+
 .card {
   border: 1px dotted lightgray;
   padding: 2em;

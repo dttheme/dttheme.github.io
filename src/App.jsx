@@ -24,7 +24,6 @@ export default () => (
         Greetings! I'm Dyanna, an artist and software engineer living in
         Atlanta.
       </p>
-
       <p>
         Visit <a href="peachbutterprints.com">my other site</a> for more
         information about my art.
@@ -40,18 +39,18 @@ export default () => (
           <img src={Github} alt="Github" />
         </a>
         <a
-          href="https://codepen.io/dyannaturner/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={Codepen} alt="Codepen" />
-        </a>
-        <a
           href="https://www.linkedin.com/in/dyannaturner/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={LinkedIn} alt="LinkedIn" />
+        </a>
+        <a
+          href="https://codepen.io/dyannaturner/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Codepen} alt="Codepen" />
         </a>
       </div>
     </Card>
