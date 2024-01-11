@@ -6,10 +6,15 @@
   margin: 0 auto;
 }
 
+p {
+  text-align: left;
+}
+
 .card {
   border: 1px dotted lightgray;
   padding: 2em;
   margin: 0.5em 0;
+  text-align: center;
 }
 
 .header {
