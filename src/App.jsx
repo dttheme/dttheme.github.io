@@ -16,6 +16,7 @@ export default () => (
         Greetings! I'm Dyanna, an artist and software engineer living in
         Atlanta.
       </p>
+      <p>This website is currently under construction!</p>
       <p>
         Visit <a href="peachbutterprints.com">my other site</a> for more
         information about my art.
