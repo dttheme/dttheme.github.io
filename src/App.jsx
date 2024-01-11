@@ -17,6 +17,10 @@ export default () => (
         Atlanta.
       </p>
       <p>This website is currently under construction!</p>
+      <img
+        src="dttheme.github.io\gifs\under-construction.gif"
+        alt="gif shows a flashing 'under construction' sign"
+      />
       <p>
         Visit <a href="peachbutterprints.com">my other site</a> for more
         information about my art.
