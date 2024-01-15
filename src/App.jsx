@@ -25,7 +25,7 @@ export default () => (
         Atlanta.
       </p>
       <p>
-        Visit <a href="peachbutterprints.com">my other site</a> for more
+        Visit <a href="https://peachbutterprints.com">my other site</a> for more
         information about my art.
       </p>
     </Card>
