@@ -43,10 +43,13 @@ export default () => (
         <li>Technical writing, copywriting and editing</li>
         <li>Illustration and graphic design</li>
       </ul>
+      <p>I'm open to freelance and remote contract work at this time.</p>
     </Card>
     <Card>
       <h2>Currently</h2>
-      <h3>Updated: 4.13.24</h3>
+      <p>
+        <i>Updated: 4.13.24</i>
+      </p>
       <p>Reading: The 4-Hour Workweek - Timothy Ferris</p>
       <p>Listening: Cowboy Carter - Beyonce</p>
       <p>
