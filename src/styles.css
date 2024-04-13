@@ -10,7 +10,9 @@ p {
   text-align: left;
 }
 
-h2 {
+h2,
+h3,
+ul {
   text-align: left;
 }
 
@@ -33,4 +35,8 @@ h2 {
 
 .social img {
   max-width: 30px;
+}
+
+.credit {
+  text-align: center;
 }
