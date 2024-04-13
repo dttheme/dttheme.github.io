@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(178, 163, 200, 0.3);
+}
 .app-wrapper {
   display: grid;
   justify-content: center;
@@ -18,6 +21,7 @@ ul {
 
 .card {
   border: 1px dotted lightgray;
+  background-color: #fff;
   padding: 2em;
   margin: 0.5em 0;
   text-align: center;
