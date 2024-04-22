@@ -44,3 +44,7 @@ ul {
 .credit {
   text-align: center;
 }
+
+li {
+  padding-bottom: 10px;
+}
