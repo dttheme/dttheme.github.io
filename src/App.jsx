@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./sections/Header";
 import Social from "./sections/Social";
 import Card from "./Card";
+import Currently from "./sections/Currently";
 
 const year = new Date().getFullYear();
 
@@ -32,38 +33,7 @@ export default () => (
         . You can find links to my store and social media there.
       </p>
     </Card>
-    <Card>
-      <h2>Services</h2>
-      <ul>
-        <li>
-          Mentorship and career coaching, specializing in engineering with a
-          non-traditional background
-        </li>
-        <li>Web development and auditing</li>
-        <li>Technical writing, copywriting and editing</li>
-        <li>Illustration and graphic design</li>
-      </ul>
-      <p>I'm open to freelance and remote contract work at this time.</p>
-    </Card>
-    <Card>
-      <h2>Currently</h2>
-      <p>
-        <i>Updated: 4.13.24</i>
-      </p>
-      <p>Reading: The 4-Hour Workweek - Timothy Ferris</p>
-      <p>Listening: Cowboy Carter - Beyonce</p>
-      <p>
-        Working on: Getting ready to bring{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://peachbutterprints.com"
-        >
-          Peach Butter Prints
-        </a>{" "}
-        to Ormewood Makers Fest on Sat, May 18, 2024
-      </p>
-    </Card>
+    <Currently></Currently>
     <p className="credit">© {year}, Dyanna Turner</p>
   </div>
 );
