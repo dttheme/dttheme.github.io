@@ -8,33 +8,25 @@ export default () => {
       <Card>
         <h2>Services</h2>
         <ul>
+          <li>Software engineering, web development and auditing</li>
           <li>
             Mentorship and career coaching, specializing in engineering with a
             non-traditional background
           </li>
-          <li>Web development and auditing</li>
           <li>Technical writing, copywriting and editing</li>
           <li>Illustration and graphic design</li>
         </ul>
-        <p>I'm open to freelance and remote contract work at this time.</p>
       </Card>
       <Card>
         <h2>Currently</h2>
         <p>
-          <i>Updated: 5.7.24</i>
+          <i>Updated: 6.11.24</i>
         </p>
-        <p>Reading: The Year of Magical Thinking - Joan Didion</p>
-        <p>Listening: Cate and Calvin's wedding playlist {"<3"}</p>
+        <p>Reading: Earl's Trip - Jenny Holiday</p>
+        <p>Listening: BOA - Megan Thee Stallion</p>
         <p>
-          Working on: Getting ready to bring{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://peachbutterprints.com"
-          >
-            Peach Butter Prints
-          </a>{" "}
-          to Ormewood Makers Fest on Sat, May 18, 2024
+          Working on: Special rainbow prints for the Rainbow Art Market at EAV
+          Community Garden on 6/15
         </p>
       </Card>
     </>
