@@ -14,7 +14,7 @@ export default () => (
     <Social></Social>
     <Card>
       <h2>About Me</h2>
-      <p>Hey! I'm Dyanna, an artist and software engineer living in Atlanta.</p>
+      <p>Hey! I'm Dyanna, an artist and software engineer based in Atlanta.</p>
       <p>
         I've been working professionally as a fullstack software engineer since
         2018. Most recently, I was Senior Software Engineer at Intuit Mailchimp.
@@ -22,15 +22,18 @@ export default () => (
         and accessibility.
       </p>
       <p>
-        At the end of 2023, I opened my art shop,{" "}
+        After my father passed in July of 2023, I decided to take some time away
+        from engineering to start my art business.
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://peachbutterprints.com"
         >
           Peach Butter Prints
-        </a>
-        . You can find links to my store and social media there.
+        </a>{" "}
+        has since showcased at 6 markets around Atlanta to great support from
+        the community. PBP continues to grow and exeed my expectations, and I
+        look forward to what the future brings!
       </p>
     </Card>
     <Currently></Currently>

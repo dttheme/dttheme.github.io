@@ -8,7 +8,9 @@ export default () => {
       <Card>
         <h2>Services</h2>
         <ul>
-          <li>Software engineering, web development and auditing</li>
+          <li>
+            Software engineering, web development and performance auditing
+          </li>
           <li>
             Mentorship and career coaching, specializing in engineering with a
             non-traditional background
@@ -20,14 +22,20 @@ export default () => {
       <Card>
         <h2>Currently</h2>
         <p>
-          <i>Updated: 6.11.24</i>
+          <i>Updated: 7.7.24</i>
         </p>
-        <p>Reading: Earl's Trip - Jenny Holiday</p>
-        <p>Listening: BOA - Megan Thee Stallion</p>
+        <p>Reading: Magic - Chris Gosden</p>
         <p>
-          Working on: Special rainbow prints for the Rainbow Art Market at EAV
-          Community Garden on 6/15
+          Listening: Our summer playlist! You can listen to it{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://open.spotify.com/playlist/045cMeVNKpIkVKpPsLmQde?si=0e498c8560854552"
+          >
+            here
+          </a>
         </p>
+        <p>Working on: A trio of themed prints for my partner's office</p>
       </Card>
     </>
   );
