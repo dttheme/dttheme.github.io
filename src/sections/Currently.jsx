@@ -22,20 +22,17 @@ export default () => {
       <Card>
         <h2>Currently</h2>
         <p>
-          <i>Updated: 7.7.24</i>
+          <i>Updated: 7.15.24</i>
         </p>
-        <p>Reading: Magic - Chris Gosden</p>
+        <p>Reading: The Age of Magical Overthinking - Amanda Montell </p>
+        <p>Listening: JOYRIDE - Kesha</p>
         <p>
-          Listening: Our summer playlist! You can listen to it{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://open.spotify.com/playlist/045cMeVNKpIkVKpPsLmQde?si=0e498c8560854552"
-          >
-            here
-          </a>
+          Working on:
+          <ul>
+            <li>A gallery page created in React for peachbutterprints.com</li>
+            <li>A trio of prints for my partner's office</li>
+          </ul>
         </p>
-        <p>Working on: A trio of themed prints for my partner's office</p>
       </Card>
     </>
   );
