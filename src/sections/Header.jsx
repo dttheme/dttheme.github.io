@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles.css";
+// import Hamburger from "hamburger-react";
 
 export default ({ children }) => {
-  return <div className="header">{children}</div>;
+  // const [isOpen, setOpen] = useState(false);
+
+  return (
+    <div className="header">
+      {children}
+
+      {/* <Hamburger toggled={isOpen} toggle={setOpen}></Hamburger> */}
+    </div>
+  );
 };
