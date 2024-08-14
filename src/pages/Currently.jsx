@@ -25,8 +25,9 @@ export default () => {
           href="https://open.spotify.com/album/6gkh9oOIjRJ24JXKSX9LWp?si=l4sXdZKqTw2PNzm_T50ZkQ"
           target="_blank"
           rel="noopener noreferrer"
-        ></a>
-        Parallel Lines - STRFKR
+        >
+          Parallel Lines - STRFKR
+        </a>
       </p>
       <p>
         <i>Working on:</i>
@@ -43,7 +44,7 @@ export default () => {
             peachbutterprints.com
           </a>
         </li>
-        <li>A trio of prints for my partner's office </li>
+        <li>A trio of linocut prints for my partner's office </li>
       </ul>
     </Card>
   );

@@ -11,7 +11,9 @@ export default () => (
     <Router>
       <Header>
         <h1>Dyanna Turner</h1>
-        <nav>
+        <Social></Social>
+
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -23,7 +25,7 @@ export default () => (
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
       </Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -31,7 +33,6 @@ export default () => (
         <Route path="/currently" element={<Currently />}></Route>
       </Routes>
     </Router>
-    <Social></Social>
     <p className="credit">© {year}, Dyanna Turner</p>
   </div>
 );
