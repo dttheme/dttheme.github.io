@@ -1,39 +1,50 @@
-import React from "react";
 import "../styles.css";
+
 import { Card } from "../components";
+import React from "react";
 
 export default () => {
   return (
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 8.14.24
+        <i>Updated:</i> 9.23.24
       </p>
       <p>
         <i>Reading: </i>{" "}
-        <a
-          href="https://www.goodreads.com/book/show/34728667-children-of-blood-and-bone"
+        {/* <a
+          href=""
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Children of Blood and Bone - Tomi Adeyemi
-        </a>
+        > */}
+        Final Girls - Riley Sager
+        {/* </a> */}
       </p>
       <p>
         <i>Listening: </i>
-        <a
+        {/* <a
           href="https://open.spotify.com/album/6gkh9oOIjRJ24JXKSX9LWp?si=l4sXdZKqTw2PNzm_T50ZkQ"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Parallel Lines - STRFKR
-        </a>
+        > */}
+        Plantasia - Mort Garson
+        {/* </a> */}
       </p>
       <p>
         <i>Working on:</i>
       </p>
       <ul>
-        <li>Project page for this website</li>
+        <li>
+          getting ready for{" "}
+          <a
+            href="https://inktober.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Inktober 2024
+          </a>
+        </li>
+        {/* <li>Project page for this website</li>
         <li>
           A loading gif and animation for{" "}
           <a
@@ -44,7 +55,7 @@ export default () => {
             peachbutterprints.com
           </a>
         </li>
-        <li>A trio of linocut prints for my partner's office </li>
+        <li>A trio of linocut prints for my partner's office </li> */}
       </ul>
     </Card>
   );
