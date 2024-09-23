@@ -1,37 +1,38 @@
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
-
-import Card from "./Card";
-import Course from "./pages/Course";
-import Header from "./sections/Header";
-import Home from "./pages/Home";
 import React from "react";
-import Social from "./sections/Social";
+import { Header, Social } from "./sections";
+import { Currently, Home, Projects } from "./pages";
+
+import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 const year = new Date().getFullYear();
 
-const App = () => {
-  return (
+export default () => (
+  <div className="app-wrapper">
     <Router>
-      <div className="app-wrapper">
+      <Header>
+        <h1>Dyanna Turner</h1>
+        <Social></Social>
+
         {/* <nav>
-          <ol>
+          <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
-          </ol>
+            <li>
+              <Link to="/currently">Currently</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
         </nav> */}
-        <Header>
-          <h1>Dyanna Turner</h1>
-        </Header>
-        <Social></Social>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/course" element={<Course />}></Route>
-        </Routes>
-        <p className="credit">© {year}, Dyanna Turner</p>
-      </div>
+      </Header>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/currently" element={<Currently />}></Route>
+      </Routes>
     </Router>
-  );
-};
-
-export default App;
+    <p className="credit">© {year}, Dyanna Turner</p>
+  </div>
+);
