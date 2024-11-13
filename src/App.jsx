@@ -29,8 +29,8 @@ export default () => (
       </Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/currently" element={<Currently />}></Route>
+        {/* <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/currently" element={<Currently />}></Route> */}
       </Routes>
     </Router>
     <p className="credit">© {year}, Dyanna Turner</p>

@@ -8,55 +8,36 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 9.23.24
+        <i>Updated:</i> 11.13.2024
       </p>
+      <p>Getting ready to bring Peach Butter Prints to a few upcoming markets on November 16th, 23rd, and 30th. Check out  <a
+          href="https://www.instagram.com/peachbutterprints/"
+          target="_blank"
+          rel="noopener noreferrer"
+        > PBP's Instagram</a> for more information.</p>
       <p>
         <i>Reading: </i>{" "}
-        {/* <a
-          href=""
+        <ul>
+          <li>
+          <a
+          href="http://www.google.com/search?q=Neuroqueer Heresies - Nick Walker"
           target="_blank"
           rel="noopener noreferrer"
-        > */}
-        Final Girls - Riley Sager
-        {/* </a> */}
-      </p>
-      <p>
-        <i>Listening: </i>
-        {/* <a
-          href="https://open.spotify.com/album/6gkh9oOIjRJ24JXKSX9LWp?si=l4sXdZKqTw2PNzm_T50ZkQ"
+        > 
+        Neuroqueer Heresies - Nick Walker
+        </a>
+          </li>
+          <li>
+          <a
+          href="http://www.google.com/search?q=Smoke Gets in Your Eyes - Caitlin Doughty"
           target="_blank"
           rel="noopener noreferrer"
-        > */}
-        Plantasia - Mort Garson
-        {/* </a> */}
+        >
+        Smoke Gets in Your Eyes - Caitlin Doughty
+        </a>
+          </li>
+        </ul>
       </p>
-      <p>
-        <i>Working on:</i>
-      </p>
-      <ul>
-        <li>
-          getting ready for{" "}
-          <a
-            href="https://inktober.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Inktober 2024
-          </a>
-        </li>
-        {/* <li>Project page for this website</li>
-        <li>
-          A loading gif and animation for{" "}
-          <a
-            href="http://peachbutterprints.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            peachbutterprints.com
-          </a>
-        </li>
-        <li>A trio of linocut prints for my partner's office </li> */}
-      </ul>
     </Card>
   );
 };
