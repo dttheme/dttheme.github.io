@@ -8,33 +8,41 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 11.13.2024
+        <i>Updated:</i> 1.21.25
       </p>
-      <p>Getting ready to bring Peach Butter Prints to a few upcoming markets on November 16th, 23rd, and 30th. Check out  <a
-          href="https://www.instagram.com/peachbutterprints/"
+      <p>
+        Working on an interactive guide for learning tarot. You can see the work
+        in progress here:{" "}
+        <a
+          href="https://www.dyannaturner.com/tarot-guide"
           target="_blank"
           rel="noopener noreferrer"
-        > PBP's Instagram</a> for more information.</p>
+        >
+          {" "}
+          Tarot Guide
+        </a>
+      </p>
       <p>
         <i>Reading: </i>{" "}
         <ul>
           <li>
-          <a
-          href="http://www.google.com/search?q=Neuroqueer Heresies - Nick Walker"
-          target="_blank"
-          rel="noopener noreferrer"
-        > 
-        Neuroqueer Heresies - Nick Walker
-        </a>
+            <a
+              href="http://www.google.com/search?q=Burnout: The Secret to Unlocking the Stress Cycle - Emily and Amelia Nagoski"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Burnout: The Secret to Unlocking the Stress Cycle - Emily and
+              Amelia Nagoski
+            </a>
           </li>
           <li>
-          <a
-          href="http://www.google.com/search?q=Smoke Gets in Your Eyes - Caitlin Doughty"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Smoke Gets in Your Eyes - Caitlin Doughty
-        </a>
+            <a
+              href="http://www.google.com/search?q=Rebecca - Daphne du Maurier"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Rebecca - Daphne du Maurier
+            </a>
           </li>
         </ul>
       </p>
