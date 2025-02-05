@@ -8,8 +8,6 @@ const Home = () => {
   return (
     <>
       <About></About>
-      {/* <Projects></Projects> */}
-      <Currently></Currently>
     </>
   );
 };

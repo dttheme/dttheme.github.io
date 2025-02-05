@@ -26,9 +26,9 @@ const About = () => {
       </p>
       <p>
         When my dad passed in July '23, I took a sabbatical from engineering. I
-        been working as an artist, fulfilling a life-long dream. I have spent
-        the last year vending at markets around Atlanta, building my own brand,
-        and connecting with my community.
+        have been working as an artist, fulfilling a life-long dream. I have
+        spent the last year vending at markets around Atlanta, building my own
+        brand, and connecting with my community.
       </p>
       <br />
       <b>

@@ -8,7 +8,7 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 1.21.25
+        <i>Updated:</i> 2.4.25
       </p>
       <p>
         Working on an interactive guide for learning tarot. You can see the work
@@ -27,21 +27,20 @@ export default () => {
         <ul>
           <li>
             <a
-              href="http://www.google.com/search?q=Burnout: The Secret to Unlocking the Stress Cycle - Emily and Amelia Nagoski"
+              href="http://www.google.com/search?q=Caste: Origins of Our Discontent by Isabel Wilkerson"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Burnout: The Secret to Unlocking the Stress Cycle - Emily and
-              Amelia Nagoski
+              Caste: Origins of Our Discontent by Isabel Wilkerson
             </a>
           </li>
           <li>
             <a
-              href="http://www.google.com/search?q=Rebecca - Daphne du Maurier"
+              href="http://www.google.com/search?q=We Deserve Monuments by Jas Hammonds"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Rebecca - Daphne du Maurier
+              We Deserve Monuments by Jas Hammonds
             </a>
           </li>
         </ul>

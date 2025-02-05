@@ -1,8 +1,8 @@
-import React from "react";
-import { Header, Social } from "./sections";
 import { Currently, Home, Projects } from "./pages";
-
+import { Header, Social } from "./sections";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
+import React from "react";
 
 const year = new Date().getFullYear();
 
@@ -11,9 +11,8 @@ export default () => (
     <Router>
       <Header>
         <h1>Dyanna Turner</h1>
-        <Social></Social>
 
-        {/* <nav>
+        <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -25,14 +24,15 @@ export default () => (
               <Link to="/projects">Projects</Link>
             </li>
           </ul>
-        </nav> */}
+        </nav>
       </Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        {/* <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/currently" element={<Currently />}></Route> */}
+        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/currently" element={<Currently />}></Route>
       </Routes>
     </Router>
+    <Social></Social>
     <p className="credit">© {year}, Dyanna Turner</p>
   </div>
 );
