@@ -41,6 +41,10 @@ const Projects = () => {
         is an internationally successful email marketing platform. I worked as a
         fullstack engineer on the email builder product.
       </p>
+      {/* <p>
+        I also have examples of <a href="">UI/UX design</a>, and{" "}
+        <a href="">technical writing</a>
+      </p> */}
       <h2>Personal</h2>
 
       <p>
