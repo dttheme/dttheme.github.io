@@ -56,7 +56,7 @@ const Projects = () => {
           rel="noopener noreferrer"
           href="https://happytabbycatcafe.com/"
         >
-          Tabby Cat Cafe
+          Happy Tabby Cat Cafe
         </a>
         .
       </p>
