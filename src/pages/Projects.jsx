@@ -41,10 +41,25 @@ const Projects = () => {
         is an internationally successful email marketing platform. I worked as a
         fullstack engineer on the email builder product.
       </p>
-      {/* <p>
-        I also have examples of <a href="">UI/UX design</a>, and{" "}
-        <a href="">technical writing</a>
-      </p> */}
+      <p>
+        I have also done freelance work for local businesses, like{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://hopcitybeer.com/"
+        >
+          Hop City
+        </a>
+        , and{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://happytabbycatcafe.com/"
+        >
+          Tabby Cat Cafe
+        </a>
+        .
+      </p>
       <h2>Personal</h2>
 
       <p>

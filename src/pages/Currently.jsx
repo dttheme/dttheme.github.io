@@ -8,7 +8,7 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 2.4.25
+        <i>Updated:</i> 2.19.25
       </p>
       <p>
         Working on an interactive guide for learning tarot. You can see the work
@@ -25,15 +25,6 @@ export default () => {
       <p>
         <i>Reading: </i>{" "}
         <ul>
-          <li>
-            <a
-              href="http://www.google.com/search?q=Caste: Origins of Our Discontent by Isabel Wilkerson"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Caste: Origins of Our Discontent by Isabel Wilkerson
-            </a>
-          </li>
           <li>
             <a
               href="http://www.google.com/search?q=We Deserve Monuments by Jas Hammonds"
