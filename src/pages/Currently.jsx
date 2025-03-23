@@ -8,19 +8,34 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 2.19.25
+        <i>Updated:</i> 3.23.25
       </p>
       <p>
-        Working on an interactive guide for learning tarot. You can see the work
-        in progress here:{" "}
-        <a
-          href="https://www.dyannaturner.com/tarot-guide"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          Tarot Guide
-        </a>
+        <ul>
+          <li>
+            preparing to complete{" "}
+            <a
+              href="https://www.gmhcn.org/cps-job-description"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Peer Support Certification
+            </a>
+          </li>
+          <li>wrapping up a few commissions</li>
+          <li>working part time in a wine shop</li>
+          <li>
+            volunteering with{" "}
+            <a
+              href="https://www.instagram.com/yawpofficial/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YAWP Atlanta
+            </a>
+          </li>
+        </ul>
       </p>
       <p>
         <i>Reading: </i>{" "}
