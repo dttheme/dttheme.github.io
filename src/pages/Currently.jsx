@@ -27,11 +27,11 @@ export default () => {
         <ul>
           <li>
             <a
-              href="http://www.google.com/search?q=We Deserve Monuments by Jas Hammonds"
+              href="http://www.google.com/search?q=The Art of Logic in an Illogical World by Eugenia Cheng"
               target="_blank"
               rel="noopener noreferrer"
             >
-              We Deserve Monuments by Jas Hammonds
+              The Art of Logic in an Illogical World by Eugenia Cheng
             </a>
           </li>
         </ul>
