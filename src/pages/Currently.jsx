@@ -8,12 +8,24 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 5.26.25
+        <i>Updated:</i> 5.27.25
       </p>
       <p>
         <ul>
-          <li>writing scripts for upcoming comics</li>
+          <li>
+            writing scripts for upcoming comics (keep an eye on my{" "}
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/peachbutterprints/
+            "
+            >
+              art insta
+            </a>
+            )
+          </li>
           <li>launching peer support and connecting with peers</li>
+          <li>pen to tablet, working on art for Gemini season</li>
           <li>talking wine with ATLiens</li>
           <li>enjoying my blooming summer garden</li>
         </ul>
