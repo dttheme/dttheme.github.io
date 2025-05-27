@@ -12,9 +12,10 @@ export default () => {
       </p>
       <p>
         <ul>
-          <li>writing scripts for upcoming posts</li>
-          <li>launching peer support</li>
-          <li>enjoying my garden</li>
+          <li>writing scripts for upcoming comics</li>
+          <li>launching peer support and connecting with peers</li>
+          <li>talking wine with ATLiens</li>
+          <li>enjoying my blooming summer garden</li>
         </ul>
       </p>
       <p>

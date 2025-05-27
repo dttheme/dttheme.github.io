@@ -1,4 +1,4 @@
-import { Currently, Home, Projects } from "./pages";
+import { Currently, Home, PeerSupport, Projects } from "./pages";
 import { Header, Social } from "./sections";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
@@ -21,15 +21,19 @@ export default () => (
               <Link to="/currently">Currently</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="/engineering">Engineering</Link>
+            </li>
+            <li>
+              <Link to="/peersupport">Peer Support</Link>
             </li>
           </ul>
         </nav>
       </Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/engineering" element={<Projects />}></Route>
         <Route path="/currently" element={<Currently />}></Route>
+        <Route path="/peersupport" element={<PeerSupport />}></Route>
       </Routes>
     </Router>
     <Social></Social>

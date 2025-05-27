@@ -13,30 +13,30 @@ const About = () => {
           href="https://peachbutterprints.com"
         >
           artist
-        </a>{" "}
-        and software engineer based in Atlanta.
+        </a>
+        , Certified Peer Specialist, and software engineer based in Atlanta.
       </p>
       <p>
-        I've had many jobs over the years, in customer service, merchandising,
-        event planning and more. I consider myself a Jane of All Trades and can
-        wear many hats at once. For the last 8 years, I've worked as a software
-        engineer. I've worked at startups, corporations, mid-size companies, and
-        have started my own business. I've designed and built production
-        websites from scratch.
+        I’ve worn many hats over the years: from customer service and event
+        planning to merchandising and warehouse work. I consider myself a Jane
+        of All Trades: adaptable, curious, and always learning. For the past 8
+        years, I’ve worked professionally as a software engineer, building
+        accessible, scalable frontend systems for startups, mid-sized companies,
+        and large corporations. I’ve led projects, solved critical bugs,
+        mentored teammates, and designed and built production-grade websites
+        from scratch.
       </p>
       <p>
-        When my dad passed in July '23, I took a sabbatical from engineering. I
-        have been working as an artist, fulfilling a life-long dream. I have
-        spent the last year vending at markets around Atlanta, building my own
-        brand, and connecting with my community.
+        After my dad passed away in July 2023, I stepped away from tech to focus
+        on healing, creativity, and community. Since then, I’ve been working
+        full-time as an artist, vending at local markets, building the Peach
+        Butter Prints brand, and reconnecting with a deeper sense of purpose.
       </p>
-      <br />
-      <b>
-        I am looking for engineering opportunities in 2025. Please, don’t
-        hesitate to <a href="mailto:dyanna.a.turner@gmail.com">reach out</a>.
-        I'm friendly and I'd love to hear from you! :)
-      </b>
-      <br />
+      <p>
+        As of May 2025, I am a Certified Peer Specialist in the state of
+        Georgia, offering one-on-one support for other neurodivergent and
+        trauma-impacted folks like me.
+      </p>
       <p>
         This website is built by me using{" "}
         <a target="_blank" rel="noopener noreferrer" href="https://vitejs.dev/">
