@@ -14,7 +14,8 @@ const About = () => {
         >
           artist
         </a>
-        , Certified Peer Specialist, and software engineer based in Atlanta.
+        , software engineer and, Certified Peer Specialist based in Southwest
+        Atlanta.
       </p>
       <p>
         I’ve worn many hats over the years: from customer service and event
