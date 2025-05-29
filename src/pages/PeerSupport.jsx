@@ -13,10 +13,10 @@ const PeerSupport = () => (
       </p>
       <p>
         Peer support is not therapy; it’s a relationship between equals. I don’t
-        diagnose, fix, or do the work for you. Instead, I show up as myself:
-        someone who’s walked a winding mental health recovery path and is still
-        walking that path. I’m here to witness, listen, reflect, and support you
-        as you navigate your own way.
+        diagnose or do the work for you. Instead, I show up as myself: someone
+        who’s walked a winding mental health recovery path and is still walking
+        that path. I’m here to witness, reflect, and support you as you navigate
+        your own way.
       </p>
       <p>
         This work is offered on a NOTAFLOF basis — no one turned away for lack
@@ -30,19 +30,19 @@ const PeerSupport = () => (
       <p>A gentle, nonjudgmental space for:</p>
       <ul>
         <li>Talking through hard or tender things</li>
-        <li>Navigating trauma recovery, identity, and growth</li>
         <li>Reflecting on patterns, choices, or healing journeys</li>
-        <li>Advocating for peers and teaching self-advocacy</li>
-        <li>Connecting peers with effective resources</li>
+        <li>Supporting trauma recovery, identity, and growth</li>
+        <li>Learning new ways of being and healing</li>
+        <li>Getting connected with effective resources</li>
       </ul>
       <p>
-        Sessions are held via Google Meet or phone and typically last 45–60
-        minutes.
+        Sessions are typically held via Google Meet or phone and typically last
+        45–60 minutes.
       </p>
       <h3>Weekly Office Hours</h3>
       <p>
         Open time to ask questions, chat, or just hang out — no pressure to
-        schedule a session. Office hours are casual and freeform, and you’re
+        schedule a 1:1 session. Office hours are casual and freeform, and you’re
         welcome whether you’re curious about peer support, want to share space,
         or just need a familiar presence.
       </p>
@@ -81,7 +81,33 @@ const PeerSupport = () => (
         availability and a simple intake form.
       </p>
       <p>NOTAFLOF: No One Turned Away For Lack Of Funds</p>
-      <p>If you can give, donations help keep this space going.</p>
+      <p>
+        If you can give, donations help keep this space going. I suggest folks
+        who are able contribute between $15–60 per session, but please choose
+        what works for you.{" "}
+      </p>
+      <ul>
+        <li>
+          <i>
+            For those with limited access to resources or experiencing financial
+            instability:
+          </i>{" "}
+          $0 - $20
+        </li>
+        <li>
+          <i>
+            For those with some stability and/or access to discretionary income:
+          </i>{" "}
+          $20 - $50
+        </li>
+        <li>
+          <i>
+            For those with financial security and a desire to support access for
+            others:
+          </i>{" "}
+          $50+
+        </li>
+      </ul>
       <p>
         Payment options:{" "}
         <a
