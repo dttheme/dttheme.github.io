@@ -8,24 +8,13 @@ export default () => {
     <Card>
       <h2>Currently</h2>
       <p>
-        <i>Updated:</i> 5.27.25
+        <i>Updated:</i> 7.3.25
       </p>
       <p>
         <ul>
-          <li>
-            writing scripts for upcoming comics (keep an eye on my{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.instagram.com/peachbutterprints/
-            "
-            >
-              art insta
-            </a>
-            )
-          </li>
+          <li> working on art for my upcoming art market on July 19th</li>
           <li>launching peer support and connecting with peers</li>
-          <li>pen to tablet, working on art for Gemini season</li>
+
           <li>talking wine with ATLiens</li>
           <li>enjoying my blooming summer garden</li>
         </ul>
@@ -35,11 +24,11 @@ export default () => {
         <ul>
           <li>
             <a
-              href="http://www.google.com/search?q=What My Bones Know - Stephanie Foo"
+              href="http://www.google.com/search?q=Your Inner Fish - Neil Shubin"
               target="_blank"
               rel="noopener noreferrer"
             >
-              What My Bones Know - Stephanie Foo
+              Your Inner Fish - Neil Shubin
             </a>
           </li>
         </ul>

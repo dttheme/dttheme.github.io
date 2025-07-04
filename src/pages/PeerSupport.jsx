@@ -59,6 +59,22 @@ const PeerSupport = () => (
       <p>If any of this resonates, I’d love to meet you.</p>
     </Card>
     <Card>
+      <h2>My Why</h2>
+      <p>
+        I have been in recovery for CPTSD for 10 years. Since I received my
+        initial diagnosis at age 25, I have been through CBT, DBT, EMDR,
+        neurofeedback, brain-spotting, psychiatric, somatic and art therapy in
+        order to get relief. In '21, I was also diagnosed with ASD, and received
+        professional help for coping with that diagnosis.
+      </p>
+      <p>
+        I feel called to use all the valuable information I've acquired over the
+        years to help others that are going through the same diagnoses,
+        struggling in the same ways, and could use someone to listen or give
+        advice.
+      </p>
+    </Card>
+    <Card>
       <h2>How It Works</h2>
       <p>
         You can check{" "}
