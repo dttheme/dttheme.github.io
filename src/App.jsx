@@ -1,6 +1,6 @@
 import { Currently, Home, PeerSupport, Projects } from "./pages";
 import { Header, Social } from "./sections";
-import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Link, Route, HashRouter as Router, Routes } from "react-router-dom";
 
 import React from "react";
 
