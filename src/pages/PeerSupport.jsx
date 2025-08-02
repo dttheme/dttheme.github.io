@@ -16,12 +16,50 @@ const PeerSupport = () => (
         diagnose or do the work for you. Instead, I show up as myself: someone
         who’s walked a winding mental health recovery path and is still walking
         that path. I’m here to witness, reflect, and support you as you navigate
-        your own way.
+        your own way. I can offer perspective, as well as referral to verified
+        resources.
       </p>
       <p>
         This work is offered on a NOTAFLOF basis — no one turned away for lack
         of funds. Sessions are available at no cost, with sliding-scale
         donations appreciated if you’re able to contribute.
+      </p>
+    </Card>
+    <Card>
+      <h2>About Me</h2>
+      <h3>
+        Let's make sure we're a good fit! Ask me about any of the identities or
+        experiences listed here.
+      </h3>
+      <h4>My identities, chosen and not chosen</h4>
+      <p>
+        34 years old, assigned female at birth (AFAB), artist, engineer, gamer,
+        Libra, naturephile, nerd, neurodivergent, non-binary, queer, white,
+        witch
+      </p>
+      <h4>My lived experience</h4>
+      <p>
+        mental health challenges (anxiety, depression, OCD, burnout, suicidal
+        ideation, PMDD, complex PTSD), neurodivergence (autism spectrum
+        disorder, dissociative disorder, perfectionism), trauma and abuse
+        (emotional, verbal, physical, sexual abuse and assault), identity and
+        body struggles (gender dysphoria, body dysmorphia, disordered eating,
+        queerness, coming out and transitioning), addiction and legal challenges
+        (alcoholism, arrest and short-term incarceration), relationship and
+        family struggles (infidelity, parental divorce and custody battles,
+        grief, bullying), spiritual difficulties (spiritual disconnect,
+        religious trauma), major life transitions (changing careers, losing a
+        parent).
+      </p>
+      <h4>Therapies, practices, and supports I’ve experienced</h4>
+      <p>
+        Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT),
+        Brainspotting, Eye Movement Desensitization and Reprocessing (EMDR),
+        Somatic Therapy, Neurofeedback, Internal Family Systems (IFS), group
+        therapy, various forms of meditation (mindfulness, transcendental,
+        Metta, yoga, body scan), psychedelics (microdosing and macrodosing), art
+        therapy, running, biking, weight lifting, hiking, and psychiatric
+        medications (antidepressants, antianxiety).
       </p>
     </Card>
     <Card>
@@ -36,8 +74,7 @@ const PeerSupport = () => (
         <li>Getting connected with effective resources</li>
       </ul>
       <p>
-        Sessions are typically held via Google Meet or phone and typically last
-        45–60 minutes.
+        Sessions are usually 45–60 minutes and held via Google Meet or phone.
       </p>
       <h3>Weekly Office Hours</h3>
       <p>
@@ -61,11 +98,11 @@ const PeerSupport = () => (
     <Card>
       <h2>My Why</h2>
       <p>
-        I have been in recovery for CPTSD for 10 years. Since I received my
-        initial diagnosis at age 25, I have been through CBT, DBT, EMDR,
-        neurofeedback, brain-spotting, psychiatric, somatic and art therapy in
-        order to get relief. In '21, I was also diagnosed with ASD, and received
-        professional help for coping with that diagnosis.
+        I have been in recovery from complex PTSD for over 10 years. Since
+        receiving my first diagnosis at age 25, I’ve engaged with a wide range
+        of healing practices, which I listed at the top of this page. In 2021, I
+        was also diagnosed with autism, and received support around
+        understanding and integrating that experience.
       </p>
       <p>
         I feel called to use all the valuable information I've acquired over the
