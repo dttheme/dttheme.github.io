@@ -7,19 +7,26 @@ export default () => {
   return (
     <Card>
       <h2>Currently</h2>
+      <img src="/gifs/eternalmoon.gif" alt="" />
       <p>
-        <i>Updated:</i> 7.3.25
+        <i>Updated:</i> 8.1.25
       </p>
       <p>
         <ul>
-          <li> working on art for my upcoming art market on July 19th</li>
-          <li>launching peer support and connecting with peers</li>
-
+          <li>getting setup to do wholesale prints</li>
+          <li>painting for leo season</li>
+          <li>finishing my verified resources document</li>
           <li>talking wine with ATLiens</li>
           <li>enjoying my blooming summer garden</li>
         </ul>
       </p>
-      <p>
+      <img src="/gifs/vlovechain.gif" alt="" />
+      <center>
+        <small>
+          Credit to <a href="https://gifcities.org/">GifCities</a>
+        </small>
+      </center>
+      {/* <p>
         <i>Reading: </i>{" "}
         <ul>
           <li>
@@ -32,7 +39,7 @@ export default () => {
             </a>
           </li>
         </ul>
-      </p>
+      </p> */}
     </Card>
   );
 };

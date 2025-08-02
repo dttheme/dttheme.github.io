@@ -31,13 +31,14 @@ const PeerSupport = () => (
         Let's make sure we're a good fit! Ask me about any of the identities or
         experiences listed here.
       </h3>
-      <h4>My identities, chosen and not chosen</h4>
+      <h4>My identities</h4>
       <p>
         34 years old, assigned female at birth (AFAB), artist, engineer, gamer,
         Libra, naturephile, nerd, neurodivergent, non-binary, queer, white,
-        witch
+        witch, raised Catholic, with ancestors primarily from Ireland and
+        England, living on Muscogee land in southwest Atlanta
       </p>
-      <h4>My lived experience</h4>
+      <h4>My lived experiences</h4>
       <p>
         mental health challenges (anxiety, depression, OCD, burnout, suicidal
         ideation, PMDD, complex PTSD), neurodivergence (autism spectrum
@@ -49,7 +50,7 @@ const PeerSupport = () => (
         family struggles (infidelity, parental divorce and custody battles,
         grief, bullying), spiritual difficulties (spiritual disconnect,
         religious trauma), major life transitions (changing careers, losing a
-        parent).
+        parent)
       </p>
       <h4>Therapies, practices, and supports I’ve experienced</h4>
       <p>
@@ -59,7 +60,7 @@ const PeerSupport = () => (
         therapy, various forms of meditation (mindfulness, transcendental,
         Metta, yoga, body scan), psychedelics (microdosing and macrodosing), art
         therapy, running, biking, weight lifting, hiking, and psychiatric
-        medications (antidepressants, antianxiety).
+        medications (antidepressants, antianxiety)
       </p>
     </Card>
     <Card>
@@ -86,7 +87,7 @@ const PeerSupport = () => (
     </Card>
     <Card>
       <h2>Who This Is For</h2>
-      <p>I’m especially eager to connect with:</p>
+      <p>I’m particularly interested to connect with:</p>
       <ul>
         <li>Other queer and/or neurodivergent folks </li>
         <li>People navigating trauma, burnout, or recovery </li>
