@@ -31,14 +31,20 @@ const PeerSupport = () => (
         Let's make sure we're a good fit! Ask me about any of the identities or
         experiences listed here.
       </h3>
-      <h4>My identities</h4>
+      <h4>Identities</h4>
       <p>
         34 years old, assigned female at birth (AFAB), artist, engineer, gamer,
         Libra, naturephile, nerd, neurodivergent, non-binary, queer, white,
         witch, raised Catholic, with ancestors primarily from Ireland and
         England, living on Muscogee land in southwest Atlanta
       </p>
-      <h4>My lived experiences</h4>
+      <h4>Philosphies</h4>
+      <p>
+        abolition, animism, anti-capitalism, body positivity, empiricism,
+        herbalism, land back, mutual aid, playfulness, pragmatism, radical
+        acceptance, self-determination, sex positivity, skepticism, Taoism{" "}
+      </p>
+      <h4>Lived experiences</h4>
       <p>
         mental health challenges (anxiety, depression, OCD, burnout, suicidal
         ideation, PMDD, complex PTSD), neurodivergence (autism spectrum
@@ -48,9 +54,9 @@ const PeerSupport = () => (
         queerness, coming out and transitioning), addiction and legal challenges
         (alcoholism, arrest and short-term incarceration), relationship and
         family struggles (infidelity, parental divorce and custody battles,
-        grief, bullying), spiritual difficulties (spiritual disconnect,
-        religious trauma), major life transitions (changing careers, losing a
-        parent)
+        grief, bullying, stalking), spiritual difficulties (spiritual
+        disconnect, religious trauma), major life transitions (changing careers,
+        losing a parent)
       </p>
       <h4>Therapies, practices, and supports I’ve experienced</h4>
       <p>
@@ -89,6 +95,7 @@ const PeerSupport = () => (
       <h2>Who This Is For</h2>
       <p>I’m particularly interested to connect with:</p>
       <ul>
+        <li>People between the ages of 25 and 45</li>
         <li>Other queer and/or neurodivergent folks </li>
         <li>People navigating trauma, burnout, or recovery </li>
         <li>Adults who are masking, unmasking, or somewhere in between</li>
