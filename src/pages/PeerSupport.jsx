@@ -46,17 +46,41 @@ const PeerSupport = () => (
       </p>
       <h4>Lived experiences</h4>
       <p>
+<ul>
+<li>
         mental health challenges (<i>anxiety, depression, OCD, burnout, suicidal
-        ideation, PMDD, complex PTSD</i>), neurodivergence (<i>autism spectrum
-        disorder, dissociative disorder, perfectionism, people pleasing</i>), trauma and abuse
-        (<i>emotional, verbal, physical, sexual abuse and assault</i>), identity and
+        ideation, PMDD, complex PTSD</i>)
+</li>
+<li>
+ neurodivergence (<i>autism spectrum
+        disorder, dissociative disorder, perfectionism, people pleasing</i>)
+</li>
+<li>
+ trauma and abuse
+        (<i>emotional, verbal, physical, sexual abuse and assault</i>)
+</li>
+<li>
+ identity and
         body struggles (<i>gender dysphoria, body dysmorphia, disordered eating,
-        queerness</i>), addiction and legal challenges
-        (<i>alcoholism, arrest and short-term incarceration</i>), relationship and
+        queerness</i>)
+</li>
+<li>
+ addiction and legal challenges
+        (<i>alcoholism, arrest and short-term incarceration</i>)
+</li>
+<li>
+ relationship and
         family struggles (<i>infidelity, parental divorce and custody battles,
-        grief, bullying, stalking</i>), spiritual difficulties (<i>spiritual
-        disconnect, religious trauma</i>), major life transitions (<i>changing careers,
+        grief, bullying, stalking</i>)
+</li>
+<li>
+ spiritual difficulties (<i>spiritual
+        disconnect, religious trauma</i>)
+</li>
+<li>
+ major life transitions (<i>changing careers,
         losing a parent, coming out and transitioning</i>)
+</li>
       </p>
       <h4>Therapies, practices, and supports I’ve experienced</h4>
       <p>
