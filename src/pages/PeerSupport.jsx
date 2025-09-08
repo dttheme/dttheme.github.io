@@ -46,17 +46,17 @@ const PeerSupport = () => (
       </p>
       <h4>Lived experiences</h4>
       <p>
-        mental health challenges (anxiety, depression, OCD, burnout, suicidal
-        ideation, PMDD, complex PTSD), neurodivergence (autism spectrum
-        disorder, dissociative disorder, perfectionism), trauma and abuse
-        (emotional, verbal, physical, sexual abuse and assault), identity and
-        body struggles (gender dysphoria, body dysmorphia, disordered eating,
-        queerness, coming out and transitioning), addiction and legal challenges
-        (alcoholism, arrest and short-term incarceration), relationship and
-        family struggles (infidelity, parental divorce and custody battles,
-        grief, bullying, stalking), spiritual difficulties (spiritual
-        disconnect, religious trauma), major life transitions (changing careers,
-        losing a parent)
+        mental health challenges (<i>anxiety, depression, OCD, burnout, suicidal
+        ideation, PMDD, complex PTSD</i>), neurodivergence (<i>autism spectrum
+        disorder, dissociative disorder, perfectionism, people pleasing</i>), trauma and abuse
+        (<i>emotional, verbal, physical, sexual abuse and assault</i>), identity and
+        body struggles (<i>gender dysphoria, body dysmorphia, disordered eating,
+        queerness</i>), addiction and legal challenges
+        (<i>alcoholism, arrest and short-term incarceration</i>), relationship and
+        family struggles (<i>infidelity, parental divorce and custody battles,
+        grief, bullying, stalking</i>), spiritual difficulties (<i>spiritual
+        disconnect, religious trauma</i>), major life transitions (<i>changing careers,
+        losing a parent, coming out and transitioning</i>)
       </p>
       <h4>Therapies, practices, and supports I’ve experienced</h4>
       <p>
@@ -65,7 +65,7 @@ const PeerSupport = () => (
         Somatic Therapy, Neurofeedback, Internal Family Systems (IFS), group
         therapy, various forms of meditation (mindfulness, transcendental,
         Metta, yoga, body scan), psychedelics (microdosing and macrodosing), art
-        therapy, running, biking, weight lifting, hiking, and psychiatric
+        therapy, running, biking, weight lifting, hiking, self-advocacy and psychiatric
         medications (antidepressants, antianxiety)
       </p>
     </Card>
