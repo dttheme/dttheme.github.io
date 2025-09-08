@@ -81,6 +81,7 @@ const PeerSupport = () => (
  major life transitions (<i>changing careers,
         losing a parent, coming out and transitioning</i>)
 </li>
+</ul>
       </p>
       <h4>Therapies, practices, and supports I’ve experienced</h4>
       <p>
