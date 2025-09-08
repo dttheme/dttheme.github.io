@@ -9,7 +9,7 @@ export default () => {
   return (
     <Card>
       <h2>Currently</h2>
-      <img src={EternalMoon} alt="" />
+      <img style={{'maxWidth': '100%'}} src={EternalMoon} alt="" />
       <p>
         <i>Updated:</i> 8.25.25
       </p>
@@ -21,7 +21,7 @@ export default () => {
           <li>enjoying my blooming summer garden</li>
         </ul>
       </p>
-      <img src={VLoveChain} alt="" />
+      <img style={{'maxWidth': '100%'}} src={VLoveChain} alt="" />
       <center>
         <small>
           Credit to <a href="https://gifcities.org/">GifCities</a>
