@@ -31,11 +31,17 @@ const PeerSupport = () => {
         <h2>About Me</h2>
         <p>
           <b>Let's make sure we're a good fit!</b> Ask me about any of the
-          identities, philosophies, experience or practices listed here.
+          identities, philosophies, experiences or practices listed here.
         </p>
+        <small>
+          <p>
+            <b>Trigger warning:</b> I mention some hard things. If you don't
+            feel comfortable, skip it this section! We can still talk.
+          </p>
+        </small>
         <h4>Identities</h4>
         <p>
-          34 years old, assigned female at birth (AFAB), artist, engineer,
+          35 years old, assigned female at birth (AFAB), artist, engineer,
           gamer, Libra, naturephile, nerd, neurodivergent, trans non-binary,
           queer, white, witch, raised Catholic, with ancestors primarily from
           Ireland and England, living on Muscogee land in southwest Atlanta
@@ -43,9 +49,8 @@ const PeerSupport = () => {
         <h4>Philosphies</h4>
         <p>
           abolition, animism, anti-capitalism, body positivity, empiricism, harm
-          reduction, herbalism, land back, mutual aid, playfulness, pragmatism,
-          radical acceptance, self-determination, sex positivity, skepticism,
-          Taoism
+          reduction, land back, mutual aid, playfulness, pragmatism, radical
+          acceptance, self-determination, sex positivity, skepticism, Taoism
         </p>
         <h4>Lived experiences</h4>
         <p>
@@ -97,14 +102,81 @@ const PeerSupport = () => {
         </p>
         <h4>Therapies, practices, and supports I’ve experienced</h4>
         <p>
-          Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy
-          (DBT), Brainspotting, Eye Movement Desensitization and Reprocessing
-          (EMDR), Somatic Therapy, Neurofeedback, Internal Family Systems (IFS),
-          group therapy, various forms of meditation (mindfulness,
-          transcendental, Metta, yoga, body scan), psychedelics (microdosing and
-          macrodosing), art therapy, running, biking, weight lifting, hiking,
-          self-advocacy and psychiatric medications (antidepressants,
-          antianxiety)
+          <ul>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Cognitive Behavioral Therapy (CBT)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Dialectical_behavior_therapy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dialectical Behavior Therapy (DBT)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Brainspotting"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Brainspotting
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Eye Movement Desensitization and Reprocessing (EMDR)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Somatic_psychology"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Somatic Therapy
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Neurofeedback"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Neurofeedback
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Internal_Family_Systems_Model"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Internal Family Systems (IFS)
+              </a>
+            </li>
+            <li>group therapy</li>
+            <li>
+              various forms of meditation (mindfulness, transcendental, Metta,
+              yoga, body scan)
+            </li>
+            <li>psychedelics (microdosing and macrodosing)</li>
+            <li>art therapy</li>
+            <li>movement (running, biking, weight lifting, hiking)</li>
+            <li>self-advocacy</li>
+            <li>psychiatric medications (antidepressants, antianxiety)</li>
+          </ul>
         </p>
         <p>
           <b>Whoa! That was a lot, I know.</b> We also don't have to talk about
@@ -151,9 +223,7 @@ const PeerSupport = () => {
         <p>
           I have been in recovery for complex PTSD for over 10 years. Since
           receiving my first diagnosis at age 25, I’ve engaged with a wide range
-          of healing practices, which I listed at the top of this page. In 2021,
-          I was diagnosed with autism spectrum disorder, and received support
-          around understanding and integrating that experience.
+          of healing practices, which I listed at the top of this page.
         </p>
         <p>
           I feel called to use all the valuable information I've acquired over
