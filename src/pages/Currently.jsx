@@ -11,17 +11,14 @@ export default () => {
       <h2>Currently</h2>
       <img style={{ maxWidth: "100%" }} src={EternalMoon} alt="" />
       <p>
-        <i>Updated:</i> 9.23.25
+        <i>Updated:</i> 11.24.25
       </p>
       <p>
         <ul>
+          <li>Sagittarius season artwork ♐️</li>
+          <li>new prints, gift bags, cards in progress</li>
+          <li>Christmas art markets 🎅</li>
           <li>going on a lot of bike rides 🚵</li>
-          <li>
-            networking with all different people around Atlanta, in software
-            engineering and peer support
-          </li>
-          <li>applying for wholesale and retail spaces for art 🖼️</li>
-          <li>emotionally preparing to turn 35</li>
         </ul>
       </p>
       <img style={{ maxWidth: "100%" }} src={VLoveChain} alt="" />
