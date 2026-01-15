@@ -1,9 +1,9 @@
 import "../styles.css";
-import EternalMoon from "../../gifs/eternalmoon.gif";
-import VLoveChain from "../../gifs/vlovechain.gif";
 
 import { Card } from "../components";
+import EternalMoon from "../../gifs/eternalmoon.gif";
 import React from "react";
+import VLoveChain from "../../gifs/vlovechain.gif";
 
 export default () => {
   return (
@@ -11,14 +11,37 @@ export default () => {
       <h2>Currently</h2>
       <img style={{ maxWidth: "100%" }} src={EternalMoon} alt="" />
       <p>
-        <i>Updated:</i> 11.24.25
+        <i>Updated:</i> 1.15.26
       </p>
       <p>
         <ul>
-          <li>Sagittarius season artwork ♐️</li>
-          <li>new prints, gift bags, cards in progress</li>
-          <li>Christmas art markets 🎅</li>
-          <li>going on a lot of bike rides 🚵</li>
+          <li>recovering from a busy holiday season</li>
+          <li>
+            starting round 2 of art for the Andres Castro congressional campaign
+            (
+            <a
+              href="https://castroforgeorgia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Castro for GA
+            </a>
+            )
+          </li>
+          <li>
+            fixing domain and hosting issues for
+            <a
+              href="http://peachbutterprints.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              peachbutterprints.com
+            </a>
+            <span>(if this link works, I fixed it!)</span>
+          </li>{" "}
+          <li>creating art for Capricorn season 🐐♑</li>
+          <li>taking it one day at a time</li>
         </ul>
       </p>
       <img style={{ maxWidth: "100%" }} src={VLoveChain} alt="" />
