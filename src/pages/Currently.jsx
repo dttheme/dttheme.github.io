@@ -31,7 +31,7 @@ export default () => {
           <li>
             fixing domain and hosting issues for
             <a
-              href="http://peachbutterprints.com"
+              href="http://peachbutterprints.dyannaturner.com"
               target="_blank"
               rel="noopener noreferrer"
             >

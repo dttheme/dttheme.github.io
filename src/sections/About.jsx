@@ -10,7 +10,7 @@ const About = () => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://peachbutterprints.com"
+          href="https://peachbutterprints.dyannaturner.com"
         >
           artist
         </a>
