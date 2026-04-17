@@ -1,3 +1,4 @@
 import Card from "./Card";
+import BookMenu from "./BookMenu";
 
-export { Card };
+export { Card, BookMenu };

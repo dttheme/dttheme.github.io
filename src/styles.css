@@ -71,3 +71,192 @@ nav li {
   list-style: none;
   margin: 0;
 }
+
+/* Layout: Main app wrapper with sidebar support */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+  display: grid;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+/* Book Icon Button */
+.book-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+  font-size: 1.5em;
+  transition: opacity 0.2s ease;
+}
+
+.book-icon-button:hover {
+  opacity: 0.7;
+}
+
+/* BookMenu: Desktop Sidebar (>768px) */
+.book-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #fff;
+  border-right: 2px solid rgb(178, 163, 200, 0.3);
+  padding: 2em 1.5em;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  display: none;
+}
+
+.book-menu.open {
+  transform: translateX(0);
+}
+
+/* BookMenu TOC List */
+.book-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-menu ul li {
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(178, 163, 200, 0.3);
+}
+
+.book-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.book-menu ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #3e2a35;
+  display: block;
+}
+
+.book-menu ul li a:hover {
+  font-weight: 700;
+}
+
+/* Main content shift when sidebar is open */
+.app-layout.sidebar-open .app-content {
+  margin-left: 250px;
+}
+
+/* Mobile: Fullscreen Menu (≤768px) */
+@media (max-width: 768px) {
+  /* Hide sidebar on mobile, show as fullscreen overlay */
+  .book-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 2em;
+    transform: translateX(-100%);
+    display: block;
+    z-index: 999;
+    border-radius: 0;
+  }
+
+  .book-menu.open {
+    transform: translateX(0);
+  }
+
+  /* Stack content properly on mobile */
+  .app-layout {
+    flex-direction: column;
+  }
+
+  .app-layout.sidebar-open .app-content {
+    margin-left: 0;
+  }
+
+  .book-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .book-menu ul li {
+    padding: 1.5em 0;
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .book-menu ul li a {
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+
+  /* Responsive adjustments for mobile */
+  .app-wrapper {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .header h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .social {
+    grid-template-columns: 20% 20% 20% 20%;
+    gap: 1em;
+  }
+
+  .social img {
+    max-width: 25px;
+  }
+
+  .card {
+    padding: 1.5em;
+    margin: 0.5em 0;
+  }
+
+  p, h2, h3, ul {
+    font-size: 0.95em;
+  }
+
+  li {
+    padding-bottom: 8px;
+  }
+}
+
+/* Desktop: Show sidebar support (>768px) */
+@media (min-width: 769px) {
+  .book-menu {
+    display: block;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .header h1 {
+    margin: 0;
+  }
+}

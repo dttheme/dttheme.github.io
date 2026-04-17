@@ -11,39 +11,16 @@ export default () => {
       <h2>Currently</h2>
       <img style={{ maxWidth: "100%" }} src={EternalMoon} alt="" />
       <p>
-        <i>Updated:</i> 1.15.26
+        <i>Last Updated:</i> 4.17.26
       </p>
-      <p>
-        <ul>
-          <li>recovering from a busy holiday season</li>
-          <li>
-            starting round 2 of art for the Andres Castro congressional campaign
-            (
-            <a
-              href="https://castroforgeorgia.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Castro for GA
-            </a>
-            )
-          </li>
-          <li>
-            fixing domain and hosting issues for
-            <a
-              href="http://peachbutterprints.dyannaturner.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              peachbutterprints.com
-            </a>
-            <span>(if this link works, I fixed it!)</span>
-          </li>{" "}
-          <li>creating art for Capricorn season 🐐♑</li>
-          <li>taking it one day at a time</li>
-        </ul>
-      </p>
+
+      <ul>
+        <li>Designing and drawing the first issue of Peach Pulp, more to come</li>
+        <li>Biking on the Beltline, getting fit while doing it</li>
+        <li>Enjoying my spring garden</li>
+        <li>Reading <a href="https://www.google.com/search?q=Drive+Your+Plow+Over+The+Bones+of+the+Dead+Olga+Tokarczuk" target="_blank" rel="noopener noreferrer">Drive Your Plow Over The Bones of the Dead by Olga Tokarczuk</a> with my book club {"<3"}</li>
+      </ul>
+
       <img style={{ maxWidth: "100%" }} src={VLoveChain} alt="" />
       <center>
         <small>
