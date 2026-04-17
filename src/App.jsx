@@ -1,42 +1,36 @@
-import { Currently, Home, PeerSupport, Projects } from "./pages";
-import { Header, Social } from "./sections";
-import { Link, Route, HashRouter as Router, Routes } from "react-router-dom";
+import { Currently, Home, PeerSupport, Projects, Magic } from "./pages";
+import { Header } from "./sections";
+import { BookMenu } from "./components";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 
-import React from "react";
+import React, { useState } from "react";
 
-const year = new Date().getFullYear();
+export default () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-export default () => (
-  <div className="app-wrapper">
-    <Router>
-      <Header>
-        <h1>Dyanna Turner</h1>
-
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/currently">Currently</Link>
-            </li>
-            <li>
-              <Link to="/engineering">Engineering</Link>
-            </li>
-            <li>
-              <Link to="/peersupport">Peer Support</Link>
-            </li>
-          </ul>
-        </nav>
-      </Header>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/engineering" element={<Projects />}></Route>
-        <Route path="/currently" element={<Currently />}></Route>
-        <Route path="/peersupport" element={<PeerSupport />}></Route>
-      </Routes>
-    </Router>
-    <Social></Social>
-    <p className="credit">© {year}, Dyanna Turner</p>
-  </div>
-);
+  return (
+    <div className="app-wrapper">
+      <Router>
+        <div className={`app-layout ${isMenuOpen ? "sidebar-open" : ""}`}>
+          <BookMenu isOpen={isMenuOpen} setIsOpen={setIsMenuOpen} />
+          <div className="app-content">
+            <div className="app-content-inner">
+              <Header
+                title="Dyanna Turner"
+                isOpen={isMenuOpen}
+                setIsOpen={setIsMenuOpen}
+              />
+              <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/engineering" element={<Projects />}></Route>
+                <Route path="/currently" element={<Currently />}></Route>
+                <Route path="/peersupport" element={<PeerSupport />}></Route>
+                <Route path="/magic" element={<Magic />}></Route>
+              </Routes>
+            </div>
+          </div>
+        </div>
+      </Router>
+    </div>
+  );
+};
