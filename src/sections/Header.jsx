@@ -16,6 +16,7 @@ export default ({ title, isOpen, setIsOpen }) => {
         aria-expanded={isOpen}
       >
         <BookIcon isOpen={isOpen} />
+        <span className="book-icon-label">Menu</span>
       </button>
       <h1>{title}</h1>
     </div>
