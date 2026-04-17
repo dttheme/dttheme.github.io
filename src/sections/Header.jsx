@@ -1,6 +1,5 @@
 import React from "react";
 import { BookIcon } from "../components";
-import "../styles.css";
 
 export default ({ title, isOpen, setIsOpen }) => {
   const handleBookIconClick = () => {

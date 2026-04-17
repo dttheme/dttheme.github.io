@@ -1,7 +1,4 @@
-import { About, Services } from "../sections";
-
-import Currently from "./Currently";
-import Projects from "./Projects";
+import { About } from "../sections";
 import React from "react";
 
 const Home = () => {

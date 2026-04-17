@@ -1,6 +1,5 @@
 import React from "react";
-import "../styles.css";
-import Card from "../components/Card";
+import { Card } from "../components";
 import Github from "../../svg/logo-github.svg";
 import Instagram from "../../svg/logo-instagram.svg";
 import LinkedIn from "../../svg/logo-linkedin.svg";

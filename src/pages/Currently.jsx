@@ -1,5 +1,3 @@
-import "../styles.css";
-
 import { Card } from "../components";
 import EternalMoon from "../../gifs/eternalmoon.gif";
 import React from "react";
@@ -22,11 +20,14 @@ export default () => {
       </ul>
 
       <img style={{ maxWidth: "100%" }} src={VLoveChain} alt="" />
-      <center>
+      <p style={{ textAlign: "center" }}>
         <small>
-          Credit to <a href="https://gifcities.org/">GifCities</a>
+          Credit to{" "}
+          <a href="https://gifcities.org/" target="_blank" rel="noopener noreferrer">
+            GifCities
+          </a>
         </small>
-      </center>
+      </p>
     </Card>
   );
 };

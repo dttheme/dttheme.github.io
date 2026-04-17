@@ -1,20 +1,9 @@
-import Card from "../components/Card";
+import { Card } from "../components";
 import React from "react";
 
 const PeerSupport = () => {
   return (
     <div>
-      {/* <Card>
-        <h2>Updates</h2>
-        <p>
-          <i>Last Updated:</i> [Add date]
-        </p>
-        <p>
-          [Share any recent updates to your peer support offerings, schedule
-          changes, new services, or important announcements.]
-        </p>
-      </Card> */}
-
       <Card>
         <h2>Welcome</h2>
         <p>
@@ -57,7 +46,7 @@ const PeerSupport = () => {
           queer, white, witch, raised Catholic, with ancestors primarily from
           Ireland and England, living on Muscogee land in southwest Atlanta
         </p>
-        <h4>Philosphies</h4>
+        <h4>Philosophies</h4>
         <p>
           abolition, animism, anti-capitalism, body positivity, empiricism, harm
           reduction, land back, mutual aid, playfulness, pragmatism, radical
@@ -215,8 +204,7 @@ const PeerSupport = () => {
           schedule a 1:1 session. Office hours are casual and freeform, and
           you’re welcome whether you’re curious about peer support, want to
           share space, or just need a familiar presence.
-        </p>        <h3>[New Service or Offering]</h3>
-        <p>[Describe any new services or offerings you'd like to highlight.]</p>      </Card>
+        </p>      </Card>
       <Card>
         <h2>Who This Is For</h2>
         <p>I’m particularly interested to connect with:</p>
@@ -322,14 +310,6 @@ const PeerSupport = () => {
         </p>
       </Card>
 
-      {/* <Card>
-        <h2>Testimonials & Stories</h2>
-        <p>
-          [Share testimonials, feedback, or stories from folks you've worked with
-          (with their permission). This can help new visitors understand the
-          impact of your work.]
-        </p>
-      </Card> */}
     </div>
   );
 };
