@@ -16,9 +16,9 @@ const PeerSupport = () => {
         <p>
           Peer support is not therapy. It’s a relationship between equals. I
           don’t diagnose or do the work for you. Instead, I show up as myself:
-          someone who’s walked a winding mental health recovery path and is
-          still walking that path. I’m here to witness and support you as you
-          navigate your own way. I can offer perspective, as well as referral to
+          someone who has walked a winding mental health recovery path and
+          continues to walk it. I’m here to witness and support you as you
+          navigate your own way. I can offer perspective and referrals to
           verified resources.
         </p>
         <p>
@@ -36,7 +36,7 @@ const PeerSupport = () => {
         <small>
           <p>
             <b>Trigger warning:</b> I mention some hard things. If you don't
-            feel comfortable, skip it this section! We can still talk.
+            feel comfortable, skip this section. We can still talk.
           </p>
         </small>
         <SectionHeader id="identities" level={4} text="Identities" />
@@ -242,8 +242,8 @@ const PeerSupport = () => {
         </ul>
         <p>
           <b>Whoa! That was a lot, I know.</b> We also don't have to talk about
-          any of those things. It's important to know that you can speak to me
-          about these topics if you want. Let's move on!
+          any of those things. I share this so you know these topics are welcome
+          here if and when you want to explore them. Let's move on.
         </p>
       </Card>
       <Card>
@@ -264,6 +264,17 @@ const PeerSupport = () => {
         <p>
           Sessions are usually 45–60 minutes and held via Google Meet or phone.
         </p>
+        <SectionHeader
+          id="what-makes-my-support-different"
+          level={3}
+          text="What Makes My Support Different"
+        />
+        <p>
+          People often tell me I named something they’d never been able to
+          articulate for themselves. I have a particular ability to see patterns and name what’s actually
+          happening underneath the surface, gently and without judgment. I bring an analytical lens to emotional patterns and help people find
+          structure in the chaos.
+        </p>
         <SectionHeader id="weekly-office-hours" level={3} text="Weekly Office Hours" />
         <p>
           Open time to ask questions, chat, or just hang out — no pressure to
@@ -274,13 +285,25 @@ const PeerSupport = () => {
       </Card>
       <Card>
         <SectionHeader id="who-this-is-for" text="Who This Is For" />
-        <p>I’m particularly interested to connect with:</p>
+        <p>
+          I work especially well with people who are psychologically minded:
+          curious about their own patterns, comfortable with complexity, and
+          ready to go a little deeper than the surface.
+        </p>
+        <p>My ideal clients are often:</p>
         <ul>
-          <li>People between the ages of 25 and 45</li>
-          <li>Other queer and/or neurodivergent folks </li>
-          <li>People navigating trauma, burnout, or recovery </li>
-          <li>Adults who are masking, unmasking, or somewhere in between</li>
-          <li>Those seeking community outside of clinical models</li>
+          <li>Tech workers recovering from burnout</li>
+          <li>Late-diagnosed neurodivergent adults</li>
+          <li>Recovering perfectionists</li>
+          <li>
+            People who have been in therapy for years and feel like they’ve hit
+            a ceiling
+          </li>
+          <li>
+            Queer people navigating identity with a lot of self-awareness but
+            nowhere to fully put it
+          </li>
+          <li>Highly introspective individuals</li>
         </ul>
         <p>If any of this resonates, I’d love to meet you.</p>
       </Card>
@@ -292,10 +315,9 @@ const PeerSupport = () => {
           of healing practices, which I listed at the top of this page.
         </p>
         <p>
-          I feel called to use all the valuable information I've acquired over
-          the years to help others that are going through the same diagnoses,
-          struggling in the same ways, and could use someone to listen or give
-          advice.
+          I feel called to use what I've learned to support others navigating
+          similar diagnoses and struggles, especially folks who need someone to
+          listen, reflect, and offer grounded perspective.
         </p>
       </Card>
       <Card>
