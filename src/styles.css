@@ -51,11 +51,13 @@ ul {
   font-weight: 700;
   opacity: 0;
   font-size: 0.85em;
+  min-width: 4.2ch;
   border: none;
   background: transparent;
   color: inherit;
   cursor: pointer;
-  padding: 0;
+  padding: 0 0.05rem;
+  text-align: left;
   transition: opacity 0.2s ease;
 }
 
@@ -66,6 +68,8 @@ ul {
 
 .section-hash-link.copied {
   opacity: 1;
+  font-size: 0.58em;
+  letter-spacing: 0.02em;
 }
 
 .section-hash-link:focus-visible {

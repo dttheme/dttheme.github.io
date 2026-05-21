@@ -10,41 +10,20 @@ const About = () => {
         <ExternalLink href="https://peachbutterprints.dyannaturner.com">
           artist
         </ExternalLink>
-        , software engineer and, Certified Peer Specialist based in Southwest
+        , software engineer, and Certified Peer Specialist based in Southwest
         Atlanta.
       </p>
       <p>
-        I’ve worn many hats over the years: from customer service and event
-        planning to merchandising and warehouse work. I consider myself a Jane
-        of All Trades: adaptable, curious, and always learning. For the past 8
-        years, I’ve worked professionally as a software engineer, building
-        accessible, scalable frontend systems for startups, mid-sized companies,
-        and large corporations. I’ve led projects, solved critical bugs,
-        mentored teammates, and designed and built production-grade websites
-        from scratch.
+        I’ve spent the last 8+ years building accessible, scalable web products
+        for startups and large teams, including my current role at CNN in
+        Atlanta.
       </p>
       <p>
-        After my dad passed away in July 2023, I stepped away from tech to focus
-        on healing, creativity, and community. Since then, I’ve been working
-        full-time as an artist, vending at local markets, building the Peach
-        Butter Prints brand, and reconnecting with a deeper sense of purpose.
+        As a CPS in Georgia, I also offer one-on-one peer support for
+        neurodivergent and trauma-impacted adults rooted in lived experience,
+        care, and community.
       </p>
-      <p>
-        As of May 2025, I am a Certified Peer Specialist in the state of
-        Georgia, offering one-on-one support for other neurodivergent and
-        trauma-impacted folks like me.
-      </p>
-      <p>
-        This website is built by me using{" "}
-        <ExternalLink href="https://vitejs.dev/">
-          Vite
-        </ExternalLink>{" "}
-        and deploying on{" "}
-        <ExternalLink href="https://pages.github.com/">
-          Github Pages
-        </ExternalLink>
-        .{" "}
-      </p>
+      <p>Click the menu to learn more about my work and services.</p>
     </Card>
   );
 };

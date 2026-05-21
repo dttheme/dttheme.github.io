@@ -14,7 +14,7 @@ const navigationItems = [
   { to: "/currently", label: "Currently", Icon: MdSchedule },
   { to: "/engineering", label: "Engineering", Icon: MdCode },
   { to: "/peersupport", label: "Peer Support", Icon: MdFavorite },
-  { to: "/magic", label: "Magic", Icon: MdAutoFixHigh },
+  // { to: "/magic", label: "Magic", Icon: MdAutoFixHigh },
 ];
 
 export default ({ isOpen, setIsOpen }) => {

@@ -1,13 +1,11 @@
-import { Card, SectionHeader } from "../components";
+import { Card, SectionHeader, SiteLastUpdated } from "../components";
 import React from "react";
 
 export default () => {
   return (
     <Card>
       <SectionHeader id="magic" text="Magic" />
-      <p>
-        <i>Last Updated:</i> 4.17.26
-      </p>
+      <SiteLastUpdated />
 
       <SectionHeader id="rituals" level={3} text="Rituals" />
       <p>

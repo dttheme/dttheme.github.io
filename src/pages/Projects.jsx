@@ -9,18 +9,6 @@ const careerProjects = [
       "is where I contributed engineering work on high-traffic digital experiences for a global news audience.",
   },
   {
-    name: "Happy Tabby",
-    href: "https://happytabbycatcafe.com/",
-    description:
-      "is a local business where I supported freelance web work and digital presence improvements.",
-  },
-  {
-    name: "Hop City",
-    href: "https://hopcitybeer.com/",
-    description:
-      "is another local business client where I contributed freelance engineering and site support.",
-  },
-  {
     name: "Intuit Mailchimp",
     href: "https://mailchimp.com/",
     description:
@@ -42,16 +30,22 @@ const careerProjects = [
 
 const personalProjects = [
   {
-    name: "Rumblr",
-    href: "/rumblr",
+    name: "This Website",
+    href: "/",
     description:
-      "is an earthquake tracking application in the browser using WebGL Earth. This was my final project for Thinkful Fullstack Certification.",
+      "is my personal home on the web, built with React and Vite as an evolving portfolio for my projects, peer support work, and creative life.",
   },
-  {
+   {
     name: "Tarot Guide",
     href: "/tarot-guide",
     description:
       "is a pet project created using Vite. I created this in order to help study tarot images and meaning.",
+  },
+  {
+    name: "Rumblr",
+    href: "/rumblr",
+    description:
+      "is an earthquake tracking application in the browser using WebGL Earth. This was my final project for Thinkful Fullstack Certification.",
   },
 ];
 
