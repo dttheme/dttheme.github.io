@@ -42,7 +42,8 @@ const PeerSupport = () => {
         <SectionHeader id="identities" level={4} text="Identities" />
         <p>
           35 years old, assigned female at birth (AFAB), artist, engineer,
-          gamer, Libra, naturephile, nerd,{" "}
+          gamer, Libra, naturephile, nerd, childfree by choice, cat lover,
+          home cook, bicyclist,{" "}
           <ExternalLink href="https://en.wikipedia.org/wiki/Neurodiversity">
             neurodivergent
           </ExternalLink>

@@ -15,7 +15,7 @@ const About = () => {
       </p>
       <p>
         I’ve spent the last 8+ years building accessible, scalable web products
-        for startups and large teams, including my current role at CNN in
+        for startups and large corporations, including my current role at CNN in
         Atlanta.
       </p>
       <p>
