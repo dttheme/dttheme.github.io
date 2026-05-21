@@ -1,4 +1,4 @@
-import { Card } from "../components";
+import { Card, ExternalLink } from "../components";
 import React from "react";
 
 const About = () => {
@@ -7,13 +7,9 @@ const About = () => {
       <h2>About</h2>
       <p>
         Hey! I'm Dyanna (they/she), an{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://peachbutterprints.dyannaturner.com"
-        >
+        <ExternalLink href="https://peachbutterprints.dyannaturner.com">
           artist
-        </a>
+        </ExternalLink>
         , software engineer and, Certified Peer Specialist based in Southwest
         Atlanta.
       </p>
@@ -40,17 +36,13 @@ const About = () => {
       </p>
       <p>
         This website is built by me using{" "}
-        <a target="_blank" rel="noopener noreferrer" href="https://vitejs.dev/">
+        <ExternalLink href="https://vitejs.dev/">
           Vite
-        </a>{" "}
+        </ExternalLink>{" "}
         and deploying on{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://pages.github.com/"
-        >
+        <ExternalLink href="https://pages.github.com/">
           Github Pages
-        </a>
+        </ExternalLink>
         .{" "}
       </p>
     </Card>

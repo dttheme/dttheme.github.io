@@ -39,6 +39,39 @@ ul {
   text-align: left;
 }
 
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  scroll-margin-top: 0.75rem;
+}
+
+.section-hash-link {
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 0;
+  font-size: 0.85em;
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s ease;
+}
+
+.section-heading:hover .section-hash-link,
+.section-hash-link:focus-visible {
+  opacity: 1;
+}
+
+.section-hash-link.copied {
+  opacity: 1;
+}
+
+.section-hash-link:focus-visible {
+  outline: 1px dotted currentColor;
+}
+
 .card {
   border: 1px dotted lightgray;
   background-color: #fff;
@@ -316,6 +349,10 @@ nav li {
 
   p, h2, h3, ul {
     font-size: 0.95em;
+  }
+
+  .section-hash-link {
+    opacity: 1;
   }
 
   li {

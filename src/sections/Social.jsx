@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../components";
+import { Card, ExternalLink } from "../components";
 import Github from "../../svg/logo-github.svg";
 import Instagram from "../../svg/logo-instagram.svg";
 import LinkedIn from "../../svg/logo-linkedin.svg";
@@ -34,15 +34,13 @@ function SocialLinks({ className = "" }) {
   return (
     <div className={classes}>
       {socialLinks.map(({ href, icon, label }) => (
-        <a
+        <ExternalLink
           key={label}
           href={href}
-          target="_blank"
-          rel="noopener noreferrer"
           aria-label={label}
         >
           <img src={icon} alt={label} />
-        </a>
+        </ExternalLink>
       ))}
     </div>
   );

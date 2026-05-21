@@ -1,11 +1,11 @@
-import { Card } from "../components";
+import { Card, ExternalLink, SectionHeader } from "../components";
 import React from "react";
 
 const PeerSupport = () => {
   return (
     <div>
       <Card>
-        <h2>Welcome</h2>
+        <SectionHeader id="welcome" text="Welcome" />
         <p>
           Hi! I'm Dyanna (they/she). I’m a Certified Peer Specialist (CPS) in
           the state of Georgia and a queer, neurodivergent adult with lived
@@ -28,7 +28,7 @@ const PeerSupport = () => {
         </p>
       </Card>
       <Card>
-        <h2>About Me</h2>
+        <SectionHeader id="about-me" text="About Me" />
         <p>
           <b>Let's make sure we're a good fit!</b> Ask me about any of the
           identities, philosophies, experiences or practices listed here.
@@ -39,145 +39,207 @@ const PeerSupport = () => {
             feel comfortable, skip it this section! We can still talk.
           </p>
         </small>
-        <h4>Identities</h4>
+        <SectionHeader id="identities" level={4} text="Identities" />
         <p>
           35 years old, assigned female at birth (AFAB), artist, engineer,
-          gamer, Libra, naturephile, nerd, neurodivergent, trans non-binary,
-          queer, white, witch, raised Catholic, with ancestors primarily from
-          Ireland and England, living on Muscogee land in southwest Atlanta
+          gamer, Libra, naturephile, nerd,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Neurodiversity">
+            neurodivergent
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Non-binary_gender">
+            trans non-binary
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Queer">
+            queer
+          </ExternalLink>
+          , white,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Witchcraft">
+            witch
+          </ExternalLink>
+          , raised Catholic, with ancestors primarily from Ireland and England,
+          living on Muscogee land in southwest Atlanta
         </p>
-        <h4>Philosophies</h4>
+        <SectionHeader id="philosophies" level={4} text="Philosophies" />
         <p>
-          abolition, animism, anti-capitalism, body positivity, empiricism, harm
-          reduction, land back, mutual aid, playfulness, pragmatism, radical
-          acceptance, self-determination, sex positivity, skepticism, Taoism
+          <ExternalLink href="https://en.wikipedia.org/wiki/Abolitionism">
+            abolition
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Animism">
+            animism
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Critique_of_capitalism">
+            anti-capitalism
+          </ExternalLink>
+          , body positivity,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Empiricism">
+            empiricism
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Harm_reduction">
+            harm reduction
+          </ExternalLink>
+          , land back,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Mutual_aid">
+            mutual aid
+          </ExternalLink>
+          , playfulness,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Pragmatism">
+            pragmatism
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Distress_tolerance#Radical_acceptance">
+            radical acceptance
+          </ExternalLink>
+          , self-determination, sex positivity,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Skepticism">
+            skepticism
+          </ExternalLink>
+          ,{" "}
+          <ExternalLink href="https://en.wikipedia.org/wiki/Taoism">
+            Taoism
+          </ExternalLink>
         </p>
-        <h4>Lived experiences</h4>
-        <p>
-          <ul>
-            <li>
-              mental health challenges (
-              <i>
-                anxiety, depression, OCD, burnout, suicidal ideation,
-                perfectionism, people pleasing, PMDD, complex PTSD
-              </i>
-              )
-            </li>
-            <li>
-              neurodivergence (
-              <i>autism spectrum disorder, dissociative disorder</i>)
-            </li>
-            <li>
-              trauma and abuse (
-              <i>emotional, verbal, physical, sexual abuse and assault</i>)
-            </li>
-            <li>
-              identity and body struggles (
-              <i>
-                addiction, gender dysphoria, body dysmorphia, disordered eating,
-                queerness
-              </i>
-              )
-            </li>
-            <li>
-              relationship and family struggles (
-              <i>
-                infidelity, parental divorce and custody battles, grief,
-                bullying, social anxiety, stalking
-              </i>
-              )
-            </li>
-            <li>
-              spiritual difficulties (
-              <i>spiritual disconnect, religious trauma</i>)
-            </li>
-            <li>
-              major life transitions (
-              <i>
-                changing careers, losing a parent, coming out and transitioning
-              </i>
-              )
-            </li>
-          </ul>
-        </p>
-        <h4>Therapies, practices, and supports I’ve experienced</h4>
-        <p>
-          <ul>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Cognitive Behavioral Therapy (CBT)
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Dialectical_behavior_therapy"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Dialectical Behavior Therapy (DBT)
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Brainspotting"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Brainspotting
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Eye Movement Desensitization and Reprocessing (EMDR)
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Somatic_psychology"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Somatic Therapy
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Neurofeedback"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Neurofeedback
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://en.wikipedia.org/wiki/Internal_Family_Systems_Model"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Internal Family Systems (IFS)
-              </a>
-            </li>
-            <li>group therapy</li>
-            <li>
-              various forms of meditation (mindfulness, transcendental, Metta,
-              yoga, body scan)
-            </li>
-            <li>psychedelics (microdosing and macrodosing)</li>
-            <li>art therapy</li>
-            <li>movement (running, biking, weight lifting, hiking)</li>
-            <li>self-advocacy</li>
-            <li>psychiatric medications (antidepressants, antianxiety)</li>
-          </ul>
-        </p>
+        <SectionHeader id="lived-experiences" level={4} text="Lived experiences" />
+        <ul>
+          <li>
+            mental health challenges (
+            <i>
+              <ExternalLink href="https://en.wikipedia.org/wiki/Anxiety_disorder">
+                anxiety
+              </ExternalLink>
+              ,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Major_depressive_disorder">
+                depression
+              </ExternalLink>
+              ,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Obsessive%E2%80%93compulsive_disorder">
+                OCD
+              </ExternalLink>
+              ,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Occupational_burnout">
+                burnout
+              </ExternalLink>
+              , suicidal ideation, perfectionism, people pleasing, PMDD,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Post-traumatic_stress_disorder">
+                complex PTSD
+              </ExternalLink>
+            </i>
+            )
+          </li>
+          <li>
+            neurodivergence (
+            <i>
+              <ExternalLink href="https://en.wikipedia.org/wiki/Autism_spectrum">
+                autism spectrum disorder
+              </ExternalLink>
+              ,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Dissociative_disorder">
+                dissociative disorder
+              </ExternalLink>
+            </i>
+            )
+          </li>
+          <li>
+            trauma and abuse (
+            <i>emotional, verbal, physical, sexual abuse and assault</i>)
+          </li>
+          <li>
+            identity and body struggles (
+            <i>
+              addiction,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Gender_dysphoria">
+                gender dysphoria
+              </ExternalLink>
+              , body dysmorphia,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Eating_disorder">
+                disordered eating
+              </ExternalLink>
+              , queerness
+            </i>
+            )
+          </li>
+          <li>
+            relationship and family struggles (
+            <i>
+              infidelity, parental divorce and custody battles, grief,
+              bullying, social anxiety, stalking
+            </i>
+            )
+          </li>
+          <li>
+            spiritual difficulties (
+            <i>
+              spiritual disconnect,{" "}
+              <ExternalLink href="https://en.wikipedia.org/wiki/Religious_trauma">
+                religious trauma
+              </ExternalLink>
+            </i>
+            )
+          </li>
+          <li>
+            major life transitions (
+            <i>
+              changing careers, losing a parent, coming out and transitioning
+            </i>
+            )
+          </li>
+        </ul>
+        <SectionHeader
+          id="therapies-practices-supports"
+          level={4}
+          text="Therapies, practices, and supports I’ve experienced"
+        />
+        <ul>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy">
+              Cognitive Behavioral Therapy (CBT)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Dialectical_behavior_therapy">
+              Dialectical Behavior Therapy (DBT)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Brainspotting">
+              Brainspotting
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Eye_movement_desensitization_and_reprocessing">
+              Eye Movement Desensitization and Reprocessing (EMDR)
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Somatic_psychology">
+              Somatic Therapy
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Neurofeedback">
+              Neurofeedback
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink href="https://en.wikipedia.org/wiki/Internal_Family_Systems_Model">
+              Internal Family Systems (IFS)
+            </ExternalLink>
+          </li>
+          <li>group therapy</li>
+          <li>
+            various forms of meditation (mindfulness, transcendental, Metta,
+            yoga, body scan)
+          </li>
+          <li>psychedelics (microdosing and macrodosing)</li>
+          <li>art therapy</li>
+          <li>movement (running, biking, weight lifting, hiking)</li>
+          <li>self-advocacy</li>
+          <li>psychiatric medications (antidepressants, antianxiety)</li>
+        </ul>
         <p>
           <b>Whoa! That was a lot, I know.</b> We also don't have to talk about
           any of those things. It's important to know that you can speak to me
@@ -185,8 +247,12 @@ const PeerSupport = () => {
         </p>
       </Card>
       <Card>
-        <h2>What I Offer</h2>
-        <h3>1:1 Peer Support Sessions</h3>
+        <SectionHeader id="what-i-offer" text="What I Offer" />
+        <SectionHeader
+          id="one-to-one-peer-support-sessions"
+          level={3}
+          text="1:1 Peer Support Sessions"
+        />
         <p>A gentle, nonjudgmental space for:</p>
         <ul>
           <li>Talking through hard or tender things</li>
@@ -198,15 +264,16 @@ const PeerSupport = () => {
         <p>
           Sessions are usually 45–60 minutes and held via Google Meet or phone.
         </p>
-        <h3>Weekly Office Hours</h3>
+        <SectionHeader id="weekly-office-hours" level={3} text="Weekly Office Hours" />
         <p>
           Open time to ask questions, chat, or just hang out — no pressure to
           schedule a 1:1 session. Office hours are casual and freeform, and
           you’re welcome whether you’re curious about peer support, want to
           share space, or just need a familiar presence.
-        </p>      </Card>
+        </p>
+      </Card>
       <Card>
-        <h2>Who This Is For</h2>
+        <SectionHeader id="who-this-is-for" text="Who This Is For" />
         <p>I’m particularly interested to connect with:</p>
         <ul>
           <li>People between the ages of 25 and 45</li>
@@ -218,7 +285,7 @@ const PeerSupport = () => {
         <p>If any of this resonates, I’d love to meet you.</p>
       </Card>
       <Card>
-        <h2>My Why</h2>
+        <SectionHeader id="my-why" text="My Why" />
         <p>
           I have been in recovery for complex PTSD for over 10 years. Since
           receiving my first diagnosis at age 25, I’ve engaged with a wide range
@@ -232,24 +299,16 @@ const PeerSupport = () => {
         </p>
       </Card>
       <Card>
-        <h2>How It Works</h2>
+        <SectionHeader id="how-it-works" text="How It Works" />
         <p>
           You can check{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://cal.com/peachbutterprints"
-          >
+          <ExternalLink href="https://cal.com/peachbutterprints">
             my available schedule here
-          </a>{" "}
+          </ExternalLink>{" "}
           or{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://ig.me/m/peachbutterprints"
-          >
+          <ExternalLink href="https://ig.me/m/peachbutterprints">
             send me a DM
-          </a>{" "}
+          </ExternalLink>{" "}
           to request a session or ask about office hours. I’ll respond with
           availability and a simple intake form.
         </p>
@@ -284,29 +343,17 @@ const PeerSupport = () => {
         </ul>
         <p>
           Payment options:{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://venmo.com/u/DyannaTurner"
-          >
+          <ExternalLink href="https://venmo.com/u/DyannaTurner">
             Venmo
-          </a>
+          </ExternalLink>
           ,{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://paypal.me/peachbutterprints"
-          >
+          <ExternalLink href="https://paypal.me/peachbutterprints">
             PayPal
-          </a>
+          </ExternalLink>
           ,{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://cash.app/$DyannaTurner"
-          >
+          <ExternalLink href="https://cash.app/$DyannaTurner">
             CashApp
-          </a>
+          </ExternalLink>
         </p>
       </Card>
 

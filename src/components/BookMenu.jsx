@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import {
   MdAutoFixHigh,
   MdCode,
@@ -27,27 +27,6 @@ export default ({ isOpen, setIsOpen }) => {
     }
   };
 
-  // Close menu when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        // Don't close if clicking the book icon button (it has its own toggle)
-        const bookButton = document.querySelector(".book-icon-button");
-        if (bookButton && !bookButton.contains(event.target)) {
-          setIsOpen(false);
-        }
-      }
-    };
-
-    if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    }
-
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, [isOpen, setIsOpen]);
-
   return (
     <div ref={menuRef} className={`book-menu ${isOpen ? "open" : ""}`}>
       <div className="book-menu-social">
@@ -63,7 +42,15 @@ export default ({ isOpen, setIsOpen }) => {
           </li>
         ))}
       </ul>
-      <p className="book-menu-credit">© {year}, Dyanna Turner</p>
+      <p className="book-menu-credit">
+        <a
+          href="https://github.com/dttheme"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          © {year}, Dyanna Turner
+        </a>
+      </p>
     </div>
   );
 };
